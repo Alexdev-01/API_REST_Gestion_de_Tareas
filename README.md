@@ -30,5 +30,5 @@ API REST para gestión de tareas es un servicio web basado en el estilo arquitec
  ├── config: Configuración
  │    └── SwaggerConfig.java
  │
- └── ApiRestGestionTareasApplication.java´´´
+ └── ApiRestGestionTareasApplication.java
 
