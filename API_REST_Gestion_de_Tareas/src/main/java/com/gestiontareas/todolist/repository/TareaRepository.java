@@ -1,5 +1,7 @@
 package com.gestiontareas.todolist.repository;
 
-public class TareaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TareaRepository extends JpaRepository<Tarea, Long> {
 
 }
