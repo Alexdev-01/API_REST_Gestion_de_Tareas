@@ -1,6 +1,8 @@
 package com.gestiontareas.todolist.model;
 
-@Entity
+import jakarta.persistence.Entity;
+
+@Entity	// Indica que esta clase es una entidad de JPA
 public class Tarea {
 
 }
