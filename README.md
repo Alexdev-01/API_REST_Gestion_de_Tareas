@@ -231,16 +231,6 @@ DELETE http://localhost:8080/api/tareas/1
 
 ---
 
-## 📚 Documentación Adicional
-
-### Swagger UI
-Accede a la documentación interactiva de la API:
-```
-http://localhost:8080/swagger-ui.html
-```
-
----
-
 ## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Por favor:
