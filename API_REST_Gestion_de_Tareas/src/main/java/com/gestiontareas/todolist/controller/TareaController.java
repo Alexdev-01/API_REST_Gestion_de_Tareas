@@ -39,13 +39,13 @@ public class TareaController {
 	}
 	
 	// Método para listar todas las tareas de un usuario específico
-	@GetMapping("/usuario/usuarioID")
+	@GetMapping("/usuario/{usuarioID}")
 	public List<Tarea> listaPorUsuario(@PathVariable Long usuarioID) {	// @PathVariable indica que el valor de la variable de ruta se mapea al parámetro usuarioID
 		return tareaService.listarTareasPorUsuario(usuarioID);
 	}
 	
 	// Método para actualizar una tarea existente
-	@PutMapping("/{id}/estado")
+	@PutMapping("/{id}")
 	public Tarea actualizar(@PathVariable  Long id, @RequestBody Tarea tarea) {	 // @PathVariable indica que el valor de la variable de ruta se mapea al parámetro id; @RequestBody indica que el cuerpo de la solicitud se mapea al objeto Tarea
 		return tareaService.actualizarTarea(id, tarea);
 	}
