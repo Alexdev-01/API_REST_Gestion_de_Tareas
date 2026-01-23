@@ -231,26 +231,9 @@ DELETE http://localhost:8080/api/tareas/1
 
 ---
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Haz un fork del proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Haz commit de tus cambios (`git commit -m 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
----
-
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
----
-
 ## 👨‍💻 Autor
 
-**Alex**  
+**Alejandro C.**  
 Proyecto Portfolio - Spring Boot + MySQL
 
 ---
