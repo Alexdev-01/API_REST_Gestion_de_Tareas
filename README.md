@@ -7,8 +7,8 @@ API RESTful desarrollada con **Spring Boot** para la gestión de tareas (To-Do L
 ## 🚀 Tecnologías Utilizadas
 
 ### Backend
-- **Java 17** - Lenguaje de programación principal
-- **Spring Boot 3.2.1** - Framework para desarrollo de aplicaciones Java
+- **Java** - Lenguaje de programación principal
+- **Spring Boot** - Framework para desarrollo de aplicaciones Java
 - **Spring Web** - Para crear endpoints REST
 - **Spring Data JPA** - Capa de persistencia y acceso a datos
 - **Hibernate** - ORM (Object-Relational Mapping)
@@ -16,11 +16,7 @@ API RESTful desarrollada con **Spring Boot** para la gestión de tareas (To-Do L
 - **Bean Validation** - Validación de datos
 
 ### Base de Datos
-- **MySQL 8** - Sistema de gestión de base de datos relacional
-- **MySQL Connector/J** - Driver JDBC para conectar con MySQL
-
-### Documentación
-- **Swagger/OpenAPI** - Documentación interactiva de la API
+- **MySQL** - Sistema de gestión de base de datos relacional
 
 ### Gestión de Proyecto
 - **Maven** - Gestión de dependencias y construcción del proyecto
@@ -79,21 +75,21 @@ El proyecto sigue una **arquitectura en capas** (Layered Architecture):
 
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
-### 1. **Java Development Kit (JDK) 17 o superior**
+### 1. **Java Development Kit (JDK)**
    - Descargar: [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) o [OpenJDK](https://adoptium.net/)
    - Verificar instalación:
      ```bash
      java -version
      ```
 
-### 2. **MySQL 8**
+### 2. **MySQL**
    - Descargar: [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
    - Verificar instalación:
      ```bash
      mysql --version
      ```
 
-### 3. **Maven 3.6+** (opcional si usas el wrapper incluido)
+### 3. **Maven** (opcional si usas el wrapper incluido)
    - Descargar: [Apache Maven](https://maven.apache.org/download.cgi)
    - Verificar instalación:
      ```bash
@@ -103,6 +99,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 ### 4. **IDE Recomendado**
    - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
    - [Eclipse](https://www.eclipse.org/downloads/)
+   - [Spring Tools](https://spring.io/tools#eclipse)
    - [Visual Studio Code](https://code.visualstudio.com/) con extensiones de Java
 
 ### 5. **Postman** (para probar la API)
