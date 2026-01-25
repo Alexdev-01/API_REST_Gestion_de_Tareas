@@ -169,7 +169,7 @@ Content-Type: application/json
 
 {
   "titulo": "Completar documentación",
-  "descripcion": "Escribir el README del proyecto",
+  "descripcion": "Escribir un texto",
   "estado": "PENDIENTE",
   "usuario": {
     "id": 1
@@ -189,7 +189,7 @@ Content-Type: application/json
 
 {
   "titulo": "Completar documentación - Actualizado",
-  "descripcion": "README terminado",
+  "descripcion": "Texto terminado",
   "estado": "EN_PROGRESO"
 }
 ```
