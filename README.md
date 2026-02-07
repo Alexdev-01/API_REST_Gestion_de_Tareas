@@ -7,8 +7,8 @@ API RESTful desarrollada con **Spring Boot** para la gestión de tareas (To-Do L
 ## 🚀 Tecnologías Utilizadas
 
 ### Backend
-- **Java 17** - Lenguaje de programación principal
-- **Spring Boot 3.2.1** - Framework para desarrollo de aplicaciones Java
+- **Java** - Lenguaje de programación principal
+- **Spring Boot** - Framework para desarrollo de aplicaciones Java
 - **Spring Web** - Para crear endpoints REST
 - **Spring Data JPA** - Capa de persistencia y acceso a datos
 - **Hibernate** - ORM (Object-Relational Mapping)
@@ -16,7 +16,7 @@ API RESTful desarrollada con **Spring Boot** para la gestión de tareas (To-Do L
 - **Bean Validation** - Validación de datos
 
 ### Base de Datos
-- **MySQL 8** - Sistema de gestión de base de datos relacional
+- **MySQL** - Sistema de gestión de base de datos relacional
 - **MySQL Connector/J** - Driver JDBC para conectar con MySQL
 
 ### Documentación
